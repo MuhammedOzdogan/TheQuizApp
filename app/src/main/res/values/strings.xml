@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">The Quiz App</string>
+
+    <string name="q1">1) Do you remember your dreams?</string>
+    <string name="q1a1">Always</string>
+    <string name="q1a2">Sometimes</string>
+    <string name="q1a3">Never</string>
+    <string name="correctAnswer1">@string/q1a2</string>
+
+    <string name="q2">2) What do you want to do in life?</string>
+    <string name="q2a1">I don\'t know.</string>
+    <string name="q2a2">Change the world.</string>
+    <string name="q2a3">Find happiness</string>
+    <string-array name="correctAnswer2">
+    <item>@string/q2a3</item>
+    <item>@string/q2a2</item>
+    </string-array>
+
+
+    <string name="q3">3) How hard of a worker are you?</string>
+    <string name="q3a1">I usually work pretty hard.</string>
+    <string name="q3a2">I don\'t work very hard.</string>
+    <string name="q3a3">I always work hard.</string>
+    <string-array name="correctAnswer3">
+        <item>@string/q3a1</item>
+        <item>@string/q3a3</item>
+    </string-array>
+
+
+
+
+
+    <string name="q4">4) What do you do for fun?</string>
+    <string name="q4a1">Read</string>
+    <string name="q4a2">Talk to people</string>
+    <string name="q4a3">Watch movies</string>
+    <string-array name="correctAnswer4">
+        <item>@string/q4a1</item>
+        <item>@string/q4a2</item>
+    </string-array>
+
+    <string name="q5">5) Have you changed a lot since you were a child?</string>
+    <string name="q5a1">I don\'t think so.</string>
+    <string name="q5a2">I little bit.</string>
+    <string name="q5a3">Yes, a whole lot. I am practically a different person.</string>
+    <string-array name="correctAnswer5">
+        <item>@string/q5a2</item>
+        <item>@string/q5a3</item>
+    </string-array>
+
+
+    <string name="q6">6) You rely the most on the opinion of:</string>
+    <string name="q6a1">Exprets.</string>
+    <string name="q6a2">Friends and/or family.</string>
+    <string name="q6a3">Myself.</string>
+    <string name="correctAnswer6">MYSELF</string>
+
+    <string name="q7">7) Do you easily get embarrassed?</string>
+    <string name="q7a1">Yes!</string>
+    <string name="q7a2">Not realy.</string>
+    <string name="q7a3">It depends on whose around.</string>
+    <string name="correctAnswer7">@string/q7a3</string>
+
+    <string name="q8">8) You think that your parents raised you:</string>
+    <string name="q8a1">Well</string>
+    <string name="q8a2">Badly</string>
+    <string name="q8a3">It was mix. No parent gets evertying right or everything wrong.</string>
+    <string-array name="correctAnswer8">
+        <item>@string/q8a1</item>
+        <item>@string/q8a2</item>
+        <item>@string/q8a3</item>
+    </string-array>
+
+    <string name="q9">9) You\'re always:</string>
+    <string name="q9a1">Willing to try new things</string>
+    <string name="q9a2">Reluctant to try new things. I know what I like.</string>
+    <string name="q9a3">Afraid to try new things.</string>
+    <string name="correctAnswer9">@string/q9a1</string>
+
+    <string name="q10">10) Do you know your greatest flaw?</string>
+    <string name="q10a1">Yes!</string>
+    <string name="q10a2">No.</string>
+    <string name="q10a3">I think so. I have an idea at any rate.</string>
+    <string name="correctAnswer10">YES</string>
+
+
+    <string name="send">Send</string>
+    <string name="header">Are you know who you are?</string>
+    <string name="description">This quick test help you about discovering yourself. So I hope you will enjoy from this.</string>
+    <string name="test_header"><u>The Test</u></string>
+    <string name="edit_text_hint">My answer is ...</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="32dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/checkboxQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q1"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/checkboxAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gelecegim"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+ <CheckBox
+     android:id="@+id/checkboxAnswer2"
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gidecegim"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+ <CheckBox
+        android:id="@+id/checkboxAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donecegim"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/black"
+        />
+</LinearLayout>
